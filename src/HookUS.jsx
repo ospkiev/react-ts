@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 
 function initialCounter() {
- console.log('some calculation');
  return Math.trunc(Math.random() * 20);
 };
 
-const Hook = () => {
+const HookUS = () => {
  const [counter, setCounter] = useState(() => initialCounter());
  const [counter2, setCounter2] = useState(() => initialCounter());
  const [state, setState] = useState({
@@ -41,4 +40,4 @@ const Hook = () => {
  );
 };
 
-export default Hook;
+export default HookUS;
